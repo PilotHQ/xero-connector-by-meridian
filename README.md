@@ -1,7 +1,7 @@
-# AI Agent Connector by Meridian
+# Xero Connector by Meridian
 
 Connect supported AI agents to Xero through the free, hosted
-[AI Agent Connector by Meridian](https://xero-connector.meridian.pilot.com/).
+[Xero Connector by Meridian](https://xero-connector.meridian.pilot.com/).
 
 The connector can work with multiple Xero organisations and supports both
 read-only and read-and-write access. You choose the access level for each
