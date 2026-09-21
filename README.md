@@ -1,13 +1,13 @@
-# AI Agent Connector by Meridian for Gemini CLI
+# AI Agent Connector by Meridian
 
-Connect Gemini CLI to Xero through the free, hosted
+Connect supported AI agents to Xero through the free, hosted
 [AI Agent Connector by Meridian](https://xero-connector.meridian.pilot.com/).
 
 The connector can work with multiple Xero organisations and supports both
 read-only and read-and-write access. You choose the access level for each
 organisation in Meridian.
 
-## Install
+## Install in Gemini CLI
 
 ```sh
 gemini extensions install https://github.com/PilotHQ/xero-connector-by-meridian
@@ -22,6 +22,16 @@ Restart Gemini CLI, then authorize the connector:
 The browser flow lets you sign in to Meridian, connect Xero organisations, and
 approve Gemini CLI's access. OAuth tokens are managed by Gemini CLI; this
 repository contains no credentials or connector implementation code.
+
+## Install in GitHub Copilot
+
+```sh
+copilot plugin install PilotHQ/xero-connector-by-meridian
+```
+
+The repository uses the portable Agent Plugins 1.0 format, so the same MCP
+configuration is also supported by VS Code's Agent Plugins experience and other
+compatible clients.
 
 ## Useful requests
 
