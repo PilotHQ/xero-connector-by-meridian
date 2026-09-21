@@ -1,0 +1,22 @@
+{
+  "name": "xero-connector-by-meridian",
+  "version": "1.0.0",
+  "description": "Connect Gemini CLI to Xero through Meridian's secure, free MCP connector.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "xero-connector-by-meridian": {
+      "url": "https://xero-connector.meridian.pilot.com/mcp",
+      "type": "http",
+      "description": "Read from and, when authorized, make changes in connected Xero organisations.",
+      "authProviderType": "dynamic_discovery",
+      "oauth": {
+        "enabled": true,
+        "scopes": [
+          "xero.read",
+          "xero.write",
+          "offline_access"
+        ]
+      }
+    }
+  }
+}
