@@ -1,0 +1,19 @@
+{
+  "name": "xero-connector-by-meridian",
+  "version": "1.0.2",
+  "description": "Connect AI agents to Xero through Meridian's secure, free MCP connector.",
+  "author": {
+    "name": "Pilot.com",
+    "email": "xero-connector@pilot.com",
+    "url": "https://pilot.com/"
+  },
+  "homepage": "https://starter.meridian.pilot.com/help/xero",
+  "repository": "https://github.com/PilotHQ/xero-connector-by-meridian",
+  "license": "Apache-2.0",
+  "keywords": [
+    "accounting",
+    "finance",
+    "mcp",
+    "xero"
+  ]
+}

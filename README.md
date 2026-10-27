@@ -23,6 +23,16 @@ The browser flow lets you sign in to Meridian, connect Xero organisations, and
 approve Gemini CLI's access. OAuth tokens are managed by Gemini CLI; this
 repository contains no credentials or connector implementation code.
 
+## Install in Grok Build
+
+```sh
+grok plugin install PilotHQ/xero-connector-by-meridian --trust
+```
+
+The plugin adds one hosted MCP connection. Grok opens the provider's OAuth
+sign-in and consent flow when authentication is required. The package includes
+no local executable, hooks, API keys, or credentials.
+
 ## Install in GitHub Copilot
 
 ```sh
@@ -49,3 +59,11 @@ compatible clients.
 - Support: `xero-connector@pilot.com`
 
 The connector is operated by [Pilot](https://pilot.com/).
+
+## Network access
+
+The MCP connection and OAuth discovery use `https://xero-connector.meridian.pilot.com`.
+Sign-in/consent may use `https://starter.meridian.pilot.com`; connecting or
+refreshing the underlying accounting connection uses Xero's authorization service.
+Users sign in to their own Meridian account and explicitly authorize access.
+No accounting data is bundled in this repository.
