@@ -1,4 +1,4 @@
-# AI Agent Connector by Meridian
+# Xero Connector by Meridian
 
 Use the `xero-connector-by-meridian` MCP server whenever the user asks to
 inspect, explain, report on, create, or update information in a connected Xero

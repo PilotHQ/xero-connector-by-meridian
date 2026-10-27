@@ -1,7 +1,7 @@
 # Xero Connector by Meridian
 
 Connect supported AI agents to Xero through the free, hosted
-[Xero Connector by Meridian](https://xero-connector.meridian.pilot.com/).
+[Xero Connector by Meridian](https://starter.meridian.pilot.com/help/xero).
 
 The connector can work with multiple Xero organisations and supports both
 read-only and read-and-write access. You choose the access level for each
@@ -42,9 +42,10 @@ compatible clients.
 
 ## Security and support
 
+- [Setup and troubleshooting](https://starter.meridian.pilot.com/help/xero#limitations)
 - MCP endpoint: `https://xero-connector.meridian.pilot.com/mcp`
-- [Privacy policy](https://xero-connector.meridian.pilot.com/privacy)
-- [Terms of service](https://xero-connector.meridian.pilot.com/terms)
-- Support: `xero-mcp@pilot.com`
+- [Privacy policy](https://starter.meridian.pilot.com/privacy)
+- [Terms of service](https://starter.meridian.pilot.com/terms)
+- Support: `xero-connector@pilot.com`
 
 The connector is operated by [Pilot](https://pilot.com/).
